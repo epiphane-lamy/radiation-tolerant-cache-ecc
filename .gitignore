@@ -1,0 +1,61 @@
+# ============================================================
+# ASIC / EDA work directories
+# All directories named "work" are generated and not versioned
+# ============================================================
+
+**/work/
+
+# ============================================================
+# Xcelium / Cadence generated files
+# ============================================================
+
+xcelium.d/
+**/xcelium.d/
+
+cov_work/
+
+xrun.log
+xrun.history
+xrun.key
+
+# Simulation outputs
+*.vcd
+*.shm
+*.diag
+
+# ============================================================
+# Generated reports at project root
+# ============================================================
+
+/cache_ECC.checkFPlan
+/cache_ECC.drc.rpt
+/cache_ECC.geom.rpt
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.bak
+*~
+.DS_Store
+
+# Layout script backups / debug files
+backend/layout/scripts/layout.tcl.bak
+backend/layout/scripts/layout.tcl.debug
+backend/layout/scripts/layout.tcl.orig
+
+# Layout deliverables: only keep routed results
+backend/layout/deliverables/*
+!backend/layout/deliverables/*routed/
+!backend/layout/deliverables/*routed/**
+
+# Frontend generated files
+frontend/hdl_temp/
+frontend/simulation/
+frontend/sdf_cmd_file.cmd
+frontend/svg_cache_controller.sv
+frontend/Untitled-1
+
+# SimVision generated files
+frontend/.simvision/

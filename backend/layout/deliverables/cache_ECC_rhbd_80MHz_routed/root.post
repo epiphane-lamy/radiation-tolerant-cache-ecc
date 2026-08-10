@@ -1,0 +1,43 @@
+::db::check_and_set_root_attr extract_rc_engine post_route
+::db::check_and_set_root_attr add_rings_avoid_short true
+::db::check_and_set_root_attr add_rings_extend_over_row false
+::db::check_and_set_root_attr add_rings_ignore_rows false
+::db::check_and_set_root_attr add_rings_skip_shared_inner_ring none
+::db::check_and_set_root_attr delaycal_enable_high_fanout true
+::db::check_and_set_root_attr delaycal_enable_ideal_seq_async_pins false
+::db::check_and_set_root_attr delaycal_eng_enablepreplacedflow false
+::db::check_and_set_root_attr delaycal_ignore_net_load false
+::db::check_and_set_root_attr design_top_routing_layer 4
+::db::check_and_set_root_attr extract_rc_coupled true
+::db::check_and_set_root_attr extract_rc_coupling_cap_threshold 0.4
+::db::check_and_set_root_attr extract_rc_relative_cap_threshold 1.0
+::db::check_and_set_root_attr extract_rc_total_cap_threshold 0.0
+::db::check_and_set_root_attr floorplan_first_row_site_index 0
+::db::check_and_set_root_attr floorplan_last_row_site_index -1
+::db::check_and_set_root_attr floorplan_max_io_height false
+::db::check_and_set_root_attr ilm_keep_high_fanout_critical_insts false
+::db::check_and_set_root_attr opt_drv true
+::db::check_and_set_root_attr opt_drv_margin 0.0
+::db::check_and_set_root_attr opt_hier_trial_route_honor_read_only false
+::db::check_and_set_root_attr opt_preserve_all_sequential false
+::db::check_and_set_root_attr opt_resize_flip_flops true
+::db::check_and_set_root_attr opt_setup_target_slack 0.0
+::db::check_and_set_root_attr opt_skew_eco_route false
+::db::check_and_set_root_attr opt_view_pruning_hold_target_slack_auto_flow 0
+::db::check_and_set_root_attr opt_view_pruning_hold_views_active_list { analysis_normal_fast_min }
+::db::check_and_set_root_attr opt_view_pruning_hold_views_persistent_list { analysis_normal_fast_min}
+::db::check_and_set_root_attr opt_view_pruning_setup_views_active_list { analysis_normal_slow_max }
+::db::check_and_set_root_attr opt_view_pruning_setup_views_persistent_list { analysis_normal_slow_max}
+::db::check_and_set_root_attr opt_view_pruning_tdgr_setup_views_persistent_list { analysis_normal_slow_max}
+::db::check_and_set_root_attr power_method static
+::db::check_and_set_root_attr route_detail_antenna_factor 1.0
+::db::check_and_set_root_attr route_detail_post_route_spread_wire auto
+::db::check_and_set_root_attr route_detail_use_min_spacing_for_blockage auto
+::db::check_and_set_root_attr route_early_global_exp_do_not_invalidate_rc_grid false
+::db::check_and_set_root_attr route_early_global_secondary_pg false
+::db::check_and_set_root_attr route_exp_design_mode_top_routing_layer 4
+::db::check_and_set_root_attr route_extract_third_party_compatible false
+::db::check_and_set_root_attr route_global_exp_timing_driven_std_delay 166.5
+::db::check_and_set_root_attr route_global_exp_timing_driven_use_tif_timing_engine_for_import_design false
+::db::check_and_set_root_attr route_strict_honor_route_rule false
+::db::check_and_set_root_attr write_def_stream_check_uncolored false
