@@ -55,7 +55,7 @@ backend/    ASIC flow backend: synthesis & place-and-route scripts (Cadence Genu
 frontend/   RTL source code (cache controller, ECC encoder/decoder) and testbenches
 config/     Per-library Makefile configuration (standard-cell 45 nm / RHBD 180 nm)
 scripts/    Python: Monte-Carlo ECC fault-tolerance evaluation, PPA-F trade-off plots
-docs/       Internship report (PDF)
+docs/       Internship report (English and French PDFs)
 Makefile    Top-level flow entry point
 ```
 
