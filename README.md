@@ -2,7 +2,9 @@
 
 Design and evaluation of a 2-way set-associative cache with a custom error-correcting code (ECC) for radiation-tolerant memories, carried out during a research internship at **GMicro (Grupo de Microeletrônica, Universidade Federal de Santa Maria, Brazil)**. The design is pushed through a full ASIC flow (RTL → GDSII) on two PDKs — a standard 45 nm library and an in-house **RHBD** (Radiation-Hardened-By-Design) 180 nm library — to quantify the PPA-F (Power, Performance, Area, Fault-tolerance) trade-off between the two approaches.
 
-📄 Full internship report: [`docs/Internship_Report_2A_EPIPHANE_LAMY.pdf`](docs/Internship_Report_2A_EPIPHANE_LAMY.pdf)
+📄 **Full internship report (English):** [Internship Report](docs/Internship_Report_2A_EPIPHANE_LAMY.pdf)
+
+📄 **Rapport de stage (French):** [Rapport de stage](docs/Rapport_stage_2A_EPIPHANE_LAMY.pdf)
 
 ## Context
 
